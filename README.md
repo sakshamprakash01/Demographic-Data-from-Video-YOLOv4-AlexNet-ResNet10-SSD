@@ -42,6 +42,7 @@ numpy==1.19.1
 
 ## Folder Structure and Files Required <a name = "folder"></a>
 
+```
 ├── centroidtracker.py
 ├── FetchDataFromVid.py
 ├── ModelsAndWeights
@@ -66,7 +67,8 @@ numpy==1.19.1
     ├── L20201015151214400.mp4
     ├── L20201210134503431.csv
     └── L20201210134503431.mp4
-  
+```
+
 Place the videos inside videos folder.
 Download .caffemodel and yolov4.weights files from the internet.
 ## Running the script<a name = "install"></a>
