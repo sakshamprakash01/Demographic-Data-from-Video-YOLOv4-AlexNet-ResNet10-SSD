@@ -5,6 +5,7 @@
 - [About](#about)
 - [Data Description](#data)
 - [Prerequisites](#prereq)
+- [Folder Structure](#folder)
 - [Running the script](#install)
 - [Modules used](#dl)
 - [Contributors](#contrib)
@@ -39,6 +40,35 @@ opencv==4.5.1
 numpy==1.19.1
 ```
 
+## Folder Structure and Files Required <a name = "folder"></a>
+
+├── centroidtracker.py
+├── FetchDataFromVid.py
+├── ModelsAndWeights
+│   ├── age_detector
+│   │   ├── age_deploy.prototxt
+│   │   └── age_net.caffemodel
+│   ├── cfg
+│   │   ├── yolov4.cfg
+│   │   └── yolov4-tiny.cfg
+│   ├── data
+│   │   └── coco.names
+│   ├── face_detector
+│   │   ├── deploy.prototxt
+│   │   └── res10_300x300_ssd_iter_140000.caffemodel
+│   ├── gender_detector
+│   │   ├── gender_deploy.prototxt
+│   │   └── gender_net.caffemodel
+│   └── yolov4.weights
+├── README.md
+├── requirements.txt
+└── videos
+    ├── L20201015151214400.mp4
+    ├── L20201210134503431.csv
+    └── L20201210134503431.mp4
+  
+Place the videos inside videos folder.
+Download .caffemodel and yolov4.weights files from the internet.
 ## Running the script<a name = "install"></a>
 
 save the videos in videos/ folder. Run the following-
