@@ -46,21 +46,21 @@ numpy==1.19.1
 ├── centroidtracker.py
 ├── FetchDataFromVid.py
 ├── ModelsAndWeights
-│   ├── age_detector
-│   │   ├── age_deploy.prototxt
-│   │   └── age_net.caffemodel
-│   ├── cfg
-│   │   ├── yolov4.cfg
-│   │   └── yolov4-tiny.cfg
-│   ├── data
-│   │   └── coco.names
-│   ├── face_detector
-│   │   ├── deploy.prototxt
-│   │   └── res10_300x300_ssd_iter_140000.caffemodel
-│   ├── gender_detector
-│   │   ├── gender_deploy.prototxt
-│   │   └── gender_net.caffemodel
-│   └── yolov4.weights
+│   ├── age_detector
+│   │   ├── age_deploy.prototxt
+│   │   └── age_net.caffemodel
+│   ├── cfg
+│   │   ├── yolov4.cfg
+│   │   └── yolov4-tiny.cfg
+│   ├── data
+│   │   └── coco.names
+│   ├── face_detector
+│   │   ├── deploy.prototxt
+│   │   └── res10_300x300_ssd_iter_140000.caffemodel
+│   ├── gender_detector
+│   │   ├── gender_deploy.prototxt
+│   │   └── gender_net.caffemodel
+│   └── yolov4.weights
 ├── README.md
 ├── requirements.txt
 └── videos
