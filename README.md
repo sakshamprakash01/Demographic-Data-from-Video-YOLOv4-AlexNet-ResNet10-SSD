@@ -1,4 +1,4 @@
-# Hyper Local Consumer Behaviour Identifier (HCBI) - AI Video Processing
+# AI Video Processing for Demographic Information
 
 ## Table of Contents
 
@@ -104,5 +104,4 @@ For object tracking
 
 ## Contributors <a name = "contrib"></a>
 
-#### <a href="https://sapioanalytics.com/">Sapio Analytics Pvt Ltd</a>
-<a href="https://www.linkedin.com/in/sakshamprakash/">Saksham Prakash</a>
+#### <a href="https://www.linkedin.com/in/sakshamprakash/">Saksham Prakash</a>
